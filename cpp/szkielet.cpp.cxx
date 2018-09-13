@@ -4,10 +4,11 @@
 
 
 #include <iostream>
-
+using namespace std;
 int main(int argc, char **argv)
 {
-    std::cout << "Witaj Patryk";
+    cout << "Witaj Patryk";
 	return 0;
+    
 }
 
