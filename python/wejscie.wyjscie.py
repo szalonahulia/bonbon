@@ -7,11 +7,14 @@
 
 
 def main(args):
-    a = input("Podaj 1. liczbę: ")
+    a = int(input("Podaj 1. liczbę: "))
     print(a)
-    b = input ("Podaj 2. liczbę: ")
+    b = int(input ("Podaj 2. liczbę: "))
     print(b)
-
+    print("Suma:" , a + b)
+    print("Roznica:" , a - b)
+    print("Iloczyn:" , a * b)
+    print("Iloraz:" , a / b)
     return 0
 
 if __name__ == '__main__':
