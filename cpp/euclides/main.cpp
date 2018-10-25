@@ -10,7 +10,16 @@ int nwd_klasyczne(int a , int b) {
     }
     return a;
 }
-
+int nwd_optymalny(int a, int b) {
+    while( a > 0) {
+    it(a > 0) {
+    a = a% b;
+    b = b- a;
+    }
+    else
+    cout << b;
+    }
+}
 int main()
 {
     int a,b;
