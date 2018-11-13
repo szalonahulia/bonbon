@@ -31,7 +31,19 @@ void liczznaki(char tab[], int roz) {
         else if (tab[i] == '(' || tab[i] == ')') symbole++;
     }
 }
-
+void ascii(char tab[] ,int roz) {
+    int kod = 0;
+    for(int i=0; i<roz; i++) {
+        kod = (int)tab[i];
+        if (kod> 96 && kod < 123)
+            cout << (char)(kod-32) << " ";
+        else if (kod> 96 && kod < 91)
+            cout << (char)(kod+32) << " ";
+        else
+        }
+    
+    
+    }
 int main(int argc, char **argv)
 {
     const int rozmiar = 20;
